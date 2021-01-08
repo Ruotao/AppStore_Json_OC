@@ -17,6 +17,9 @@
 		2C2FFB8725A45E33005C09FD /* AppStore_Json_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFB8625A45E33005C09FD /* AppStore_Json_OCTests.m */; };
 		2C2FFB9225A45E33005C09FD /* AppStore_Json_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFB9125A45E33005C09FD /* AppStore_Json_OCUITests.m */; };
 		2C2FFBA425A4605F005C09FD /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFBA325A4605F005C09FD /* BaseTabBarController.m */; };
+		2C2FFBB525A48B9D005C09FD /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2FFBB425A48B9D005C09FD /* SearchViewController.m */; };
+		2C78F34325A86E2800B597EB /* SearchReultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C78F34225A86E2800B597EB /* SearchReultCell.m */; };
+		2C78F34925A877C900B597EB /* SearchReultCell+Compont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C78F34825A877C900B597EB /* SearchReultCell+Compont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,12 @@
 		2C2FFB9325A45E33005C09FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2FFBA225A4605F005C09FD /* BaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		2C2FFBA325A4605F005C09FD /* BaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		2C2FFBB325A48B9D005C09FD /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		2C2FFBB425A48B9D005C09FD /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		2C78F34125A86E2800B597EB /* SearchReultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchReultCell.h; sourceTree = "<group>"; };
+		2C78F34225A86E2800B597EB /* SearchReultCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchReultCell.m; sourceTree = "<group>"; };
+		2C78F34725A877C900B597EB /* SearchReultCell+Compont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchReultCell+Compont.h"; sourceTree = "<group>"; };
+		2C78F34825A877C900B597EB /* SearchReultCell+Compont.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SearchReultCell+Compont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				2C2FFBA225A4605F005C09FD /* BaseTabBarController.h */,
 				2C2FFBA325A4605F005C09FD /* BaseTabBarController.m */,
+				2C2FFBB325A48B9D005C09FD /* SearchViewController.h */,
+				2C2FFBB425A48B9D005C09FD /* SearchViewController.m */,
+				2C78F34125A86E2800B597EB /* SearchReultCell.h */,
+				2C78F34225A86E2800B597EB /* SearchReultCell.m */,
+				2C78F34725A877C900B597EB /* SearchReultCell+Compont.h */,
+				2C78F34825A877C900B597EB /* SearchReultCell+Compont.m */,
 				2C2FFB6A25A45E31005C09FD /* AppDelegate.h */,
 				2C2FFB6B25A45E31005C09FD /* AppDelegate.m */,
 				2C2FFB6D25A45E31005C09FD /* SceneDelegate.h */,
@@ -272,9 +287,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2FFBA425A4605F005C09FD /* BaseTabBarController.m in Sources */,
+				2C78F34925A877C900B597EB /* SearchReultCell+Compont.m in Sources */,
 				2C2FFB7225A45E31005C09FD /* ViewController.m in Sources */,
 				2C2FFB6C25A45E31005C09FD /* AppDelegate.m in Sources */,
 				2C2FFB7D25A45E33005C09FD /* main.m in Sources */,
+				2C78F34325A86E2800B597EB /* SearchReultCell.m in Sources */,
+				2C2FFBB525A48B9D005C09FD /* SearchViewController.m in Sources */,
 				2C2FFB6F25A45E31005C09FD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
